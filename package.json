@@ -1,0 +1,29 @@
+{
+  "name": "compilerbuddy",
+  "version": "1.0.0",
+  "description": "Online Compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShankarLohar/CompilerBuddy.git"
+  },
+  "keywords": [
+    "Shankar",
+    "Lohar" ,
+    "Compiler Buddy"
+  ],
+  "author": "Shankar Lohar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser" : "^1.19.0",
+    "compilex" : "^0.7.4",
+    "express" : "^4.17.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ShankarLohar/CompilerBuddy/issues"
+  },
+  "homepage": "https://github.com/ShankarLohar/CompilerBuddy#readme"
+}
