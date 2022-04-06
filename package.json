@@ -1,29 +1,22 @@
 {
-  "name": "compilerbuddy",
+  "name": "server",
   "version": "1.0.0",
-  "description": "Online Compiler",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ShankarLohar/CompilerBuddy.git"
-  },
-  "keywords": [
-    "Shankar",
-    "Lohar" ,
-    "Compiler Buddy"
-  ],
-  "author": "Shankar Lohar",
+  "author": "fab",
   "license": "ISC",
   "dependencies": {
-    "body-parser" : "^1.19.0",
-    "compilex" : "^0.7.4",
-    "express" : "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   },
-  "bugs": {
-    "url": "https://github.com/ShankarLohar/CompilerBuddy/issues"
-  },
-  "homepage": "https://github.com/ShankarLohar/CompilerBuddy#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
